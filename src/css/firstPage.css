@@ -1,0 +1,21 @@
+#main {
+  background-color: #f0f0f0;
+}
+
+#main .el-table .warning-row {
+  background: oldlace;
+}
+
+#main .el-table .success-row {
+  background: #f0f9eb;
+}
+
+#main .el-table__header tr,
+#main .el-table__header th {
+  padding: 0;
+  height: 40px;
+}
+
+#main .main-subscribe {
+  margin-top: 10px;
+}

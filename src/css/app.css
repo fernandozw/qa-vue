@@ -1,0 +1,70 @@
+/*控件全局样式定义*/
+/*.el-container {*/
+/*overflow-x: hidden;*/
+/*}*/
+
+/*.el-main {*/
+/*background-color: #f0f0f0;*/
+/*}*/
+
+/*.el-row {*/
+/*line-height: 40px;*/
+/*!*margin-bottom: 3px;*!*/
+/*!*margin-top: 3px;*!*/
+/*}*/
+
+/*.el-footer {*/
+/*background-color: #3c8dbc;*/
+/*color: #333;*/
+/*text-align: center;*/
+/*line-height: 60px;*/
+/*}*/
+
+#app {
+  min-width: 1300px;
+}
+
+#app-container {
+  overflow-x: hidden;
+}
+
+#app-header {
+  padding: 0;
+}
+
+#app-content {
+  background-color: #f0f0f0;
+}
+
+#app-content .app-content-left {
+  min-width: 240px;
+  background-color: #222d32;
+  overflow-x: hidden;
+}
+
+#app-content .app-content-left .mainContainer-aside-menu {
+  border: none;
+}
+
+#app-content .app-content-right {
+  background-color: #f0f0f0;
+  padding-top: 10px;
+}
+
+#app-content .app-content-right .app-content-right-tabs {
+  background: #fff;
+  border: 1px solid #e4e7ed;
+  margin-bottom: 5px;
+}
+
+#app-content .app-content-right .app-content-right-tabs .el-tabs__header {
+  border-bottom-width: 1px;
+  margin-bottom: 2px;
+}
+
+#app-footer {
+  background-color: #3c8dbc;
+  color: #333;
+  text-align: center;
+  line-height: 60px;
+}

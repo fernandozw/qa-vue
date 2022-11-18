@@ -1,0 +1,39 @@
+.el-row,
+.el-card {
+  margin-bottom: 5px;
+}
+
+#assistance .el-row .el-card {
+  margin-bottom: 5px;
+}
+
+#assistance .el-tabs {
+  background-color: #f0f0f0;
+}
+
+/*使用说明部分*/
+#userDetail .el-tabs .user-detail {
+}
+
+#userDetail .request-link {
+}
+
+#userDetail div:nth-child(n + 2) {
+  margin-top: 20px;
+}
+
+#userDetail .request-header .box-card p:nth-child(n + 2),
+.request-way .box-card p:nth-child(n + 2),
+.request-address .box-card p:nth-child(n + 2) {
+  margin-top: 5px;
+  margin-left: 80px;
+}
+
+/*辅助接口部分*/
+#assistance .interface .box-card .el-row:nth-child(n + 2) {
+  margin-top: 5px;
+}
+
+#assistance .codemirror {
+  line-height: 125%;
+}
